@@ -30,7 +30,6 @@ const trebuchet = (inputData: string[]) => {
 }
 
 const file = process.argv[2];
-let inputData: any = [];
 const data = fs.readFileSync(file, 'utf-8');
 
 console.log(trebuchet(data.split('\n')));
